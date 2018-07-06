@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.AppFactory.Interfaces", "Abp.AppFactory.Interfaces\Abp.AppFactory.Interfaces.csproj", "{545AD2F8-1C23-40CA-9414-860C16B417EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{545AD2F8-1C23-40CA-9414-860C16B417EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545AD2F8-1C23-40CA-9414-860C16B417EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545AD2F8-1C23-40CA-9414-860C16B417EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545AD2F8-1C23-40CA-9414-860C16B417EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {341CE789-9518-44D1-9169-2976F410AB5E}
+	EndGlobalSection
+EndGlobal
