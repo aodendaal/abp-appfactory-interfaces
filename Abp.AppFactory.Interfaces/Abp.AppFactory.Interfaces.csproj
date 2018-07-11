@@ -10,8 +10,8 @@
     <Company>AppFactory</Company>
     <Authors>Andre Odendaal</Authors>
     <Description>Interfaces for using ASP.NET Boilerplate AppFactory modules</Description>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>Added DeleteAsync() function to BlobStorage interface</PackageReleaseNotes>
+    <Version>1.3.0</Version>
+    <PackageReleaseNotes>Change UploadAsync() to return the URL of the uploaded blob</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
