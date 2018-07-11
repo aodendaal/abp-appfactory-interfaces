@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/aodendaal/abp-appfactory-interfaces</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/aodendaal/abp-appfactory-interfaces/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/aodendaal/abp-appfactory-interfaces</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>AppFactory</Company>
+    <Authors>Andre Odendaal</Authors>
+    <Description>Interfaces for using ASP.NET Boilerplate AppFactory modules</Description>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Added DeleteAsync() function to BlobStorage interface</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
