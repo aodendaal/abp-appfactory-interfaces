@@ -1,6 +1,6 @@
 ﻿namespace Abp.AppFactory.Interfaces
 {
-    public interface IEmail
+    public interface ISendGridEmail
     {
         string SenderEmailAddress { get; set; }
         string SenderName { get; set; }
