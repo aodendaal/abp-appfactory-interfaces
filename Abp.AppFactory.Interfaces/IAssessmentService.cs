@@ -6,12 +6,12 @@ namespace Abp.AppFactory.Interfaces
 {
     public interface IAssessmentService
     {
-        Task Cancel(int assessmentId);
+        Task CancelAsync(int assessmentId);
 
-        Task<List<IAssessmentCampaign>> GetCampaigns();
+        Task<List<IAssessmentCampaign>> GetCampaignsAsync();
 
-        Task<IAssessmentResult> GetStatus(int assessmentId);
+        Task<IAssessmentResult> GetStatusAsync(int assessmentId);
 
-        Task<IAssessmentLink> GetAssessment(int campaignId, Guid userToken, IEnumerable<string> tags = null);
+        Task<IAssessmentLink> GetAssessmentAsync(int campaignId, Guid userToken, IEnumerable<string> tags = null);
     }
 }
