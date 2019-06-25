@@ -10,8 +10,8 @@ namespace Abp.AppFactory.Interfaces
 
         Task<List<IAssessmentCampaign>> GetCampaignsAsync();
 
-        Task<IAssessmentResult> GetStatusAsync(int assessmentId);
+        Task<IAssessmentResult> GetStatusAsync(string assessmentId, string assessmentResultId);
 
-        Task<IAssessmentLink> GetAssessmentAsync(int campaignId, Guid userToken, IEnumerable<string> tags = null);
+        Task<IAssessmentLink> GetAssessmentAsync(string campaignId, Guid userToken, IEnumerable<string> tags = null);
     }
 }
