@@ -2,7 +2,7 @@
 {
     public interface IAssessmentLink
     {
-        int Id { get; set; }
+        string Id { get; set; }
         string URL { get; set; }
     }
 }
