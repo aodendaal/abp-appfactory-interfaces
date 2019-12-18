@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl>https://github.com/aodendaal/abp-appfactory-interfaces</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/aodendaal/abp-appfactory-interfaces/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <RepositoryUrl>https://github.com/aodendaal/abp-appfactory-interfaces</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -12,7 +12,8 @@
     <Description>Interfaces for using ASP.NET Boilerplate AppFactory modules</Description>
     <Version>1.6.0</Version>
     <PackageReleaseNotes>Change Id from int to string</PackageReleaseNotes>
-    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>

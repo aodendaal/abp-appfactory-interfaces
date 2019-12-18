@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Abp.AppFactory.Interfaces
 {
     public interface IAssessmentReport
     {
-        TimeSpan Duration { get; set; }
-        TimeSpan TotalDuration { get; set; }
-        List<string> Warnings { get; set; }
-        List<IAssessmentTechnology> Technologies { get; set; }
-        int Points { get; set; }
-        int TotalPoints { get; set; }
-        double Score { get; set; }
-        double WeightedScore { get; set; }
+        string Id { get; set; }
+        AssessmentStatus Status { get; set; }
+        Guid UserToken { get; set; }
+        int MaxScore { get; set; }
+        DateTime StartDate { get; set; }
+        DateTime FinishDate { get; set; }
+        IAssessmentResult Result { get; set; }
+        string InvitationUrl { get; set; }
     }
 }
