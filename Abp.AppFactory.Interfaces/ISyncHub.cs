@@ -5,6 +5,6 @@ namespace Abp.AppFactory.Interfaces
 {
     public interface ISyncHub
     {
-        IAssessmentTask Sync(Type entityType);
+        Task Sync(Type entityType);
     }
 }
