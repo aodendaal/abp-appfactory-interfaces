@@ -7,6 +7,6 @@ namespace Abp.AppFactory.Interfaces
     {
         Task<IAssessment> GetAssessmentAsync(string assessmentId);
 
-        Task<IAssessmentLink> GetAssessmentLinkAsync(string assessmentId, Guid userToken);
+        Task<IAssessmentLink> GetAssessmentLinkAsync(string assessmentId, string name, Guid userToken);
     }
 }

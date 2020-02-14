@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,11 +10,11 @@
     <Company>AppFactory</Company>
     <Authors>Andre Odendaal</Authors>
     <Description>Interfaces for using ASP.NET Boilerplate AppFactory modules</Description>
-    <Version>2.1.0</Version>
+    <Version>2.3.0</Version>
     <PackageReleaseNotes>Change return types on assessment service</PackageReleaseNotes>
-    <AssemblyVersion>2.1.0.0</AssemblyVersion>
+    <AssemblyVersion>2.3.0.0</AssemblyVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <FileVersion>2.1.0.0</FileVersion>
+    <FileVersion>2.3.0.0</FileVersion>
   </PropertyGroup>
 
 </Project>
