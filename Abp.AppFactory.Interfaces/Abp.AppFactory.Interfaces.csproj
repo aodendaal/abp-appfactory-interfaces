@@ -10,9 +10,10 @@
     <Company>AppFactory</Company>
     <Authors>Andre Odendaal</Authors>
     <Description>Interfaces for using ASP.NET Boilerplate AppFactory modules</Description>
-    <Version>1.5.1</Version>
+    <Version>1.6.0</Version>
     <PackageReleaseNotes>Add Async to appropriate function names</PackageReleaseNotes>
-    <AssemblyVersion>1.5.1.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <FileVersion>1.6.0.0</FileVersion>
   </PropertyGroup>
 
 </Project>

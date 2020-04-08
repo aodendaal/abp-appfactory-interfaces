@@ -2,8 +2,8 @@
 
 namespace Abp.AppFactory.Interfaces
 {
-    public interface ISendGrid
+    public interface ISendGrid: IEmailService
     {
-        Task<ISendGridResponse> SendAsync(ISendGridEmail email);
+        new Task<ISendGridResponse> SendAsync(ISendGridEmail email);
     }
 }
