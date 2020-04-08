@@ -1,8 +1,12 @@
-﻿namespace Abp.AppFactory.Interfaces
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Abp.AppFactory.Interfaces
 {
     public interface IAssessmentLink
     {
-        int Id { get; set; }
-        string URL { get; set; }
+        string Id { get; set; }
+        string InvitationUrl { get; set; }
     }
 }
