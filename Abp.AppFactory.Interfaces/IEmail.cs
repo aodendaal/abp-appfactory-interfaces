@@ -2,7 +2,6 @@
 {
     public interface IEmail
     {
-        string SenderEmailAddress { get; set; }
         string SenderName { get; set; }
         string SubjectContent { get; set; }
         string BodyTextContent { get; set; }
